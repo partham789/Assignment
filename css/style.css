@@ -1,0 +1,132 @@
+//body
+body{
+  background: black;
+
+}
+//headers
+.headers{
+  background: crimson;
+}
+
+.wrap{
+background: lightgrey;
+}
+.headers img{
+  width:100px;
+  height: 100px;
+  margin-left:-18px;
+
+}
+.headers h1{
+  text-align: center;
+  font-family: oswald;
+  word-spacing: 10px;
+}
+.list li{
+  display:inline;
+  float: right;
+  font-family: oswald;
+  font-size:18px;
+  padding:4px;
+  color:black;
+  margin-top: 9px;
+}
+.list a{
+  text-decoration: none;
+  color:black;
+}
+
+//hero element
+.hero{
+  background-image: url("../images/rabindranath.jpg");
+  background-repeat: no-repeat;
+  background-size: 850px;
+  height:600px;
+  margin-left: 40px;
+  margin-top:20px;
+
+}
+
+//3 column element
+.firstcol, .secondcol, .thirdcol{
+  margin:0px;
+  //padding-left:10px;
+  margin-top: -100px;
+  //border-style: outset;
+  //border-spacing: 5px;
+  //border-radius: 0.5px;
+  border-color: crimson;
+}
+.firstcol h2, .secondcol h2, .thirdcol h2, .second h2, .firsts h2{
+  font-family: oswald;
+  text-align: left;
+  color: crimson;
+}
+.firstcol li, .secondcol p, .thirdcol p,.first p, .second p, .second a,
+.firsts p,.firstcol p{
+  font-family: oswald;
+  text-align: left;
+  font-size: 16px;
+}
+
+//insights and statistics
+.first, .second, .firsts{
+  margin: 0px;
+  padding-top: 20px;
+}
+.seconds img{
+  margin-top: 50px;
+  margin-left: 63px;
+}
+.first img{
+  border-style: groove;
+}
+.sect{
+  margin:0px;
+
+}
+.art{
+  width:280px !important;
+  margin-top:20px;
+  margin-left:22px;
+}
+.art h3{
+  font-family: oswald;
+  text-align: left;
+  color: crimson;
+}
+.art p, .art a{
+  font-family: oswald;
+  text-align: left;
+  font-size: 16px;
+}
+img{
+  width:250px;
+  height: 200px;
+  border-style: groove;
+  border-color: crimson;
+}
+
+//footers
+.foot{
+  background: crimson;
+  color:black;
+  font-family: oswald;
+  font-size:15px;
+  margin-top: 30px;
+  width:100%;
+}
+.foot li{
+  display:inline;
+  padding:20px;
+  margin-left: -10px;
+  font-family: oswald;
+  font-size:15px;
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+   color: yellow;
+   text-decoration: underline;
+}
