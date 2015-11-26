@@ -1,9 +1,9 @@
-//body
+
 body{
   background: black;
 
 }
-//headers
+
 .headers{
   background: crimson;
 }
@@ -36,7 +36,7 @@ background: lightgrey;
   color:black;
 }
 
-//hero element
+
 .hero{
   background-image: url("../images/rabindranath.jpg");
   background-repeat: no-repeat;
@@ -47,14 +47,10 @@ background: lightgrey;
 
 }
 
-//3 column element
+
 .firstcol, .secondcol, .thirdcol{
   margin:0px;
-  //padding-left:10px;
   margin-top: -100px;
-  //border-style: outset;
-  //border-spacing: 5px;
-  //border-radius: 0.5px;
   border-color: crimson;
 }
 .firstcol h2, .secondcol h2, .thirdcol h2, .second h2, .firsts h2{
@@ -69,7 +65,6 @@ background: lightgrey;
   font-size: 16px;
 }
 
-//insights and statistics
 .first, .second, .firsts{
   margin: 0px;
   padding-top: 20px;
@@ -107,7 +102,7 @@ img{
   border-color: crimson;
 }
 
-//footers
+
 .foot{
   background: crimson;
   color:black;
